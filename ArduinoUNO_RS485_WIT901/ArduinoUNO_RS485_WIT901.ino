@@ -7,10 +7,10 @@
 /*********************************************************************/
 
 // Libs import------------------------------------------------
-#include "config.h"
-#include "RS485_receptor.h"
-#include "serialCallback.h"
-#include "encoder_e30A.h"
+#include "Libraries/config.h"
+#include "Libraries/RS485_receptor.h"
+#include "Libraries/serialCallback.h"
+#include "Libraries/encoder_e30A.h"
 
 
 
@@ -88,6 +88,6 @@ void loop() {
 
   serial_sensores();
 
-  delay(500);
+  delay(100);
 }
 

@@ -9,11 +9,11 @@
 
 
 // Import Libs ------------------------------------------------
-#include "config.h"
-#include  "SensorWT901_JY901_IIC.h"
-#include "SensorSharpIR.h"
-#include  "SensorWT901_JY901Serial.h"
-#include "RS485_Transmissor.h"
+#include "Libraries/config.h"
+#include  "Libraries/SensorWT901_JY901_IIC.h"
+#include "Libraries/SensorSharpIR.h"
+#include  "Libraries/SensorWT901_JY901Serial.h"
+#include "Libraries/RS485_Transmissor.h"
 
 void serial_sensores() {
 

@@ -14,7 +14,8 @@
 #define Pino_RS485_RX  A2  // RO 0 11
 #define Pino_RS485_TX  A1  // DI 1 10
 
-#include <SharpIR.h>
+#include "SharpIR.h"
+#include "SharpIR.cpp"
 #include <Servo.h> 
 
 
@@ -35,11 +36,6 @@ float magX,magY,magZ;
 float accX , accY, accZ;
 float gyrX, gyrY , gyrZ;
 float yaw;
-
-angleX=angleY=angleZ=angleW=0;
-magX=magY=magZ=0;
-gyrX=gyrY=gyrZ=0;
-yaw =0;
 
 //Direção da Bussola
 String directCompass = "NULL";
