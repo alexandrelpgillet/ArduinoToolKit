@@ -1,3 +1,5 @@
+*[Read in English](README_EN.md)*
+
 # ArduinoToolKit
 
 Firmware para um robô de inspeção que utiliza comunicação RS485 entre dois Arduinos — um **Arduino Nano** (transmissor) e um **Arduino UNO** (receptor) — integrando sensores de distância, inclinação, bússola e encoder rotativo.
